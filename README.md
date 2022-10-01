@@ -2,6 +2,6 @@
 
 Color guessing game using astro and preact
 
+### live url
 
-### live url 
-guess-color-ecru.vercel.app
+https://guess-color-ecru.vercel.app/
