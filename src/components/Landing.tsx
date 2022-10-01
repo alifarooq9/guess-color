@@ -97,7 +97,15 @@ const Landing = () => {
 					</button>
 				))}
 			</div>
-
+			<h1
+				class="mt-3"
+				style={{
+					color: result === resultEnum.corret ? "green" : "red",
+				}}
+			>
+				{result === resultEnum.corret && "Correct Answer"}
+				{result === resultEnum.wrong && "Wrong Answer"}
+			</h1>
 			<div class="flex space-x-5 mt-6">
 				<p>Total: {resultTrack.correct + resultTrack.wrong}</p>
 				<p>Correct: {resultTrack.correct}</p>
